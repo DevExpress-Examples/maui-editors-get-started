@@ -3,6 +3,7 @@ using Microsoft.Maui.Hosting;
 using Microsoft.Maui.Controls.Compatibility;
 using Microsoft.Maui.Controls.Hosting;
 using DevExpress.Maui.Editors;
+using DevExpress.Maui.CollectionView;
 
 namespace EditorsGetStarted
 {
@@ -19,6 +20,7 @@ namespace EditorsGetStarted
 				.ConfigureMauiHandlers(handlers => handlers.AddHandler<MultilineEdit, MultilineEditHandler>())
 				.ConfigureMauiHandlers(handlers => handlers.AddHandler<SimpleButton, SimpleButtonHandler>())
 				.ConfigureMauiHandlers(handlers => handlers.AddHandler<ComboBoxEdit, ComboBoxEditHandler>())
+				.ConfigureMauiHandlers(handlers => handlers.AddHandler<DXCollectionView, DXCollectionViewHandler>())
 				.ConfigureFonts(fonts =>
 				{
 					fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

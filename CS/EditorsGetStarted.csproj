@@ -17,9 +17,14 @@
 		<!-- Versions -->
 		<ApplicationVersion>1.0</ApplicationVersion>
 		<AndroidVersionCode>1</AndroidVersionCode>
+		<EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+		<ApplicationVersion>1</ApplicationVersion>
 
 		<!-- Required for C# Hot Reload -->
 		<UseInterpreter Condition="'$(Configuration)' == 'Debug'">True</UseInterpreter>
+
+		<SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-ios'">14.2</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-android'">21.0</SupportedOSPlatformVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -69,7 +74,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="DevExpress.Maui.Editors" Version="21.2.1-pre-*" />
+	  <PackageReference Include="DevExpress.Maui.Editors" Version="22.1.1-pre-*" />
 	</ItemGroup>
 
 </Project>
