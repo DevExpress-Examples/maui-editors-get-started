@@ -4,6 +4,7 @@ using Microsoft.Maui.Controls.Compatibility;
 using Microsoft.Maui.Controls.Hosting;
 using DevExpress.Maui.Editors;
 using DevExpress.Maui.CollectionView;
+using DevExpress.Maui;
 
 namespace EditorsGetStarted
 {
@@ -14,13 +15,7 @@ namespace EditorsGetStarted
 			var builder = MauiApp.CreateBuilder();
 			builder
 				.UseMauiApp<App>()
-				.ConfigureMauiHandlers(handlers => handlers.AddHandler<TextEdit, TextEditHandler>())
-				.ConfigureMauiHandlers(handlers => handlers.AddHandler<PasswordEdit, PasswordEditHandler>())
-				.ConfigureMauiHandlers(handlers => handlers.AddHandler<DateEdit, DateEditHandler>())
-				.ConfigureMauiHandlers(handlers => handlers.AddHandler<MultilineEdit, MultilineEditHandler>())
-				.ConfigureMauiHandlers(handlers => handlers.AddHandler<SimpleButton, SimpleButtonHandler>())
-				.ConfigureMauiHandlers(handlers => handlers.AddHandler<ComboBoxEdit, ComboBoxEditHandler>())
-				.ConfigureMauiHandlers(handlers => handlers.AddHandler<DXCollectionView, DXCollectionViewHandler>())
+				.UseDevExpress()
 				.ConfigureFonts(fonts =>
 				{
 					fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
