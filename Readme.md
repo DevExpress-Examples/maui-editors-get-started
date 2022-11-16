@@ -38,7 +38,7 @@ Please register the DevExpress NuGet Gallery in Visual Studio to restore the NuG
 
 This repository contains a demo application that allows you to get started with DevExpress Editors for .NET MAUI.
 
-<img src="./Images/editors-iphone12.png" alt="iPhone 12" height="700"> <img src="./Images/editors-pixel3a.png" alt="Pixel 3a" height="700">
+<img src="./Images/editors.png" alt="DevExpress Editors for .NET MAUI"/>
 
 The DevExpress Editors for .NET MAUI library contains the following controls: [TextEdit](http://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.TextEdit), [MultilineEdit](http://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.MultilineEdit), [PasswordEdit](http://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.PasswordEdit), [ComboBoxEdit](http://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.ComboBoxEdit), [AutoCompleteEdit](http://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.AutoCompleteEdit), [NumericEdit](http://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.NumericEdit), [DateEdit](http://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.DateEdit), [TimeEdit](http://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.TimeEdit), [CheckEdit](http://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.CheckEdit), and [SimpleButton](http://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.SimpleButton).
 
