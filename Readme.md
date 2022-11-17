@@ -27,7 +27,7 @@ The DevExpress Editors for .NET MAUI library contains the following controls: [T
 
 See the following help topic for more information: [DevExpress Editors for .NET MAUI](http://docs.devexpress.com/MAUI/403427/editors/index).
 
-You can also refer to the following YouTube video for instruction on how to get started with the Data Form Control: [Adding Data Editors to Your .NET MAUI App](https://www.youtube.com/watch?v=Njq2qCB3j6k).
+You can also refer to the following YouTube video for instruction on how to get started with the Data Editors: [Adding Data Editors to Your .NET MAUI App](https://www.youtube.com/watch?v=Njq2qCB3j6k).
 
 ### Files to Review
 
