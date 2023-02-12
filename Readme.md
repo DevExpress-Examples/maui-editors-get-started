@@ -5,21 +5,21 @@
 <!-- default badges end -->
 # DevExpress Editors for .NET MAUI
 
-[DevExpress Mobile UI](https://www.devexpress.com/maui/) allows you to use a .NET cross-platform UI toolkit and C# to build native apps for iOS and Android.
+[DevExpress Mobile UI](https://www.devexpress.com/maui/) allows you to use the .NET cross-platform UI toolkit and C# to build native apps for iOS and Android.
 
 ![DevExpress Mobile UI for .NET MAUI](./Images/maui.png)
 
-The **DevExpress Mobile UI for Xamarin.Forms and .NET MAUI** is free of charge. To learn more about our offer and to reserve your copy, visit [Free DevExpress Mobile UI for Xamarin.Forms and .NET MAUI](https://www.devexpress.com/xamarin-free).
+The **DevExpress Mobile UI for Xamarin.Forms and .NET MAUI** is available free of charge. To learn more about our offer and to reserve your copy, visit [Free DevExpress Mobile UI for Xamarin.Forms and .NET MAUI](https://www.devexpress.com/xamarin-free).
 
 ## Requirements
 
-Please register the DevExpress NuGet Gallery in Visual Studio to restore the NuGet packages used in this solution. See the following topic for more information: [Get Started with DevExpress Mobile UI for .NET MAUI](https://docs.devexpress.com/MAUI/403249/get-started).
+Please register the DevExpress NuGet Gallery in Visual Studio to restore NuGet packages used in this solution. See the following topic for more information: [Get Started with DevExpress Mobile UI for .NET MAUI](https://docs.devexpress.com/MAUI/403249/get-started).
 
-You can also refer to the following YouTube video for more information on how to get started with the DevExpress .NET MAUI Controls: [Setting up a .NET MAUI Project](https://www.youtube.com/watch?v=juJvl5UicIQ).
+You can also refer to the following YouTube video to get started with DevExpress .NET MAUI Controls: [Setting up a .NET MAUI Project](https://www.youtube.com/watch?v=juJvl5UicIQ).
 
 ## What's in This Repository
 
-This repository contains a demo application that allows you to get started with DevExpress Editors for .NET MAUI.
+The demo application in this repository illustrates some of the features available to you when using our .NET MAUI Editors library.
 
 <img src="./Images/editors.png" alt="DevExpress Editors for .NET MAUI"/>
 
