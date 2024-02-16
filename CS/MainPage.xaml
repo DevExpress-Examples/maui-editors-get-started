@@ -6,7 +6,7 @@
              x:Class="EditorsGetStarted.MainPage"
              BackgroundColor="{DynamicResource SecondaryColor}">
     <ScrollView Padding="{OnPlatform iOS='30,60,30,30', Default='30'}">
-        <StackLayout Padding="12">
+        <dx:DXStackLayout Padding="12">
             <dxe:ComboBoxEdit
                 LabelText="Box Mode"
                 BoxMode="{Binding SelectedBoxMode}"
@@ -77,10 +77,12 @@
                 MaxLineCount="4"
                 LabelText="Notes"
                 MaxCharacterCount="100"/>
-            <dx:DXButton Content="SUBMIT"
-                              Clicked="OnSubmitClicked"
-                              FontAttributes="Bold"
-                              BackgroundColor="#3F88F7"/>
-        </StackLayout>
+            <dx:DXButton 
+                Margin="0,10,0,0"
+                Content="SUBMIT"
+                Clicked="OnSubmitClicked"
+                FontAttributes="Bold"
+                BackgroundColor="#3F88F7"/>
+        </dx:DXStackLayout>
     </ScrollView>
 </ContentPage>
