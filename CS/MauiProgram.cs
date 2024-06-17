@@ -14,8 +14,11 @@ namespace EditorsGetStarted
 		{
 			var builder = MauiApp.CreateBuilder();
 			builder
-				.UseMauiApp<App>()
 				.UseDevExpress()
+				.UseDevExpressCollectionView()
+				.UseDevExpressControls()
+				.UseDevExpressEditors()
+				.UseMauiApp<App>()
 				.ConfigureFonts(fonts =>
 				{
 					fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

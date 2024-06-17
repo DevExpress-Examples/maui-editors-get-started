@@ -1,20 +1,19 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:dxe="clr-namespace:DevExpress.Maui.Editors;assembly=DevExpress.Maui.Editors"
-             xmlns:dx="clr-namespace:DevExpress.Maui.Core;assembly=DevExpress.Maui.Core"
+             xmlns:dx="http://schemas.devexpress.com/maui"
              xmlns:local="clr-namespace:EditorsGetStarted"
              x:Class="EditorsGetStarted.MainPage"
              BackgroundColor="{DynamicResource SecondaryColor}">
     <ScrollView Padding="{OnPlatform iOS='30,60,30,30', Default='30'}">
         <dx:DXStackLayout Padding="12">
-            <dxe:ComboBoxEdit
+            <dx:ComboBoxEdit
                 LabelText="Box Mode"
                 BoxMode="{Binding SelectedBoxMode}"
                 SelectedItem="{Binding SelectedBoxMode}"
                 StartIcon="{Binding SelectedBoxMode, Converter={local:BoxModeToImageSourceConverter Outlined='edit_black_24dp', Filled='edit_black_24dp_filled'}}"
                 ItemsSource="{Binding BoxModes}"
                 ReserveBottomTextLine="True"/>
-            <dxe:TextEdit
+            <dx:TextEdit
                 BoxMode="{Binding SelectedBoxMode}"
                 StartIcon="face_black_24dp"
                 Text="{Binding Login, Mode=TwoWay}"
@@ -23,7 +22,7 @@
                 HelpText="*Required"
                 ErrorText="Login is required"
                 PlaceholderText="Enter login"/>
-            <dxe:PasswordEdit
+            <dx:PasswordEdit
                 BoxMode="{Binding SelectedBoxMode}"
                 StartIcon="password_black_24dp"
                 Text="{Binding Password, Mode=TwoWay}"
@@ -32,7 +31,7 @@
                 HelpText="*Required"
                 ErrorText="The password should contain more than 5 characters, have at least one uppercase and one lowercase letter, and one number."
                 PlaceholderText="Enter password"/>
-            <dxe:TextEdit
+            <dx:TextEdit
                 BoxMode="{Binding SelectedBoxMode}"
                 StartIcon="email_black_24dp"
                 Text="{Binding Email, Mode=TwoWay}"
@@ -44,7 +43,7 @@
                 AffixIndent="0"
                 ClearIconVisibility="Never"
                 PlaceholderText="hello@devexpress.com"/>
-            <dxe:DateEdit
+            <dx:DateEdit
                 BoxMode="{Binding SelectedBoxMode}"
                 StartIcon="cake_black_24dp"
                 Date="{Binding BirthDate, Mode=TwoWay}"
@@ -57,7 +56,7 @@
                 ClearIconVisibility="Auto"
                 DisplayFormat="d"
                 PlaceholderText="Enter birth date"/>
-            <dxe:TextEdit
+            <dx:TextEdit
                 BoxMode="{Binding SelectedBoxMode}"
                 StartIcon="phone_black_24dp"
                 Text="{Binding Phone, Mode=TwoWay}"
@@ -68,7 +67,7 @@
                 HelpText="Do not include a country code"
                 Keyboard="Telephone"
                 PlaceholderText="Enter phone number"/>
-            <dxe:MultilineEdit
+            <dx:MultilineEdit
                 BoxMode="{Binding SelectedBoxMode}"
                 StartIcon="notes_black_24dp"
                 Text="{Binding Notes, Mode=TwoWay}"
